@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="prateek.project.voiceprescription">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <permission android:name="android.permission.MEDIA_CONTENT_CONTROL"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:theme="@style/AppTheme"
+        android:configChanges="orientation|screenSize"
+        android:supportsRtl="true"
+        android:label="@string/app_name"
+        android:icon="@drawable/flash_screen_doc"
+        android:roundIcon="@drawable/flash_screen_doc"
+        android:allowBackup="true"
+        >
+        <activity android:name="prateek.project.voiceprescription.FlashScreen" android:theme="@style/AppTheme1" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginScreen" android:theme="@style/AppTheme.Dark" />
+        <activity android:name="prateek.project.voiceprescription.SignupScreen" android:theme="@style/AppTheme.Dark"/>
+        <activity android:name="prateek.project.voiceprescription.MainActivity" android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name="prateek.project.voiceprescription.PatientForm" android:theme="@style/AppTheme" android:screenOrientation="portrait"/>
+        <activity android:name="prateek.project.voiceprescription.PrescriptionForm" android:theme="@style/AppTheme" android:screenOrientation="portrait"/>
+        <activity android:name="prateek.project.voiceprescription.PrescriptionMain" android:theme="@style/AppTheme2" android:screenOrientation="portrait"/>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

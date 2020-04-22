@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "596610823073",
+    "firebase_url": "https://sih-project-feac1.firebaseio.com",
+    "project_id": "sih-project-feac1",
+    "storage_bucket": "sih-project-feac1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596610823073:android:ca53422f6e4061f82251e0",
+        "android_client_info": {
+          "package_name": "prateek.project.voiceprescription"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "596610823073-ocapdcb3n22je1pai8ovcp9ih7ovtsch.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChfYDIYW6CwUjp2ik6EZwbfS7HUnQHBUo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "596610823073-ocapdcb3n22je1pai8ovcp9ih7ovtsch.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

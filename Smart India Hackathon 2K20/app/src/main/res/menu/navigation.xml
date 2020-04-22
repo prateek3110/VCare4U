@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/patient_details"
+        android:icon="@drawable/ic_view_headline_black_18dp"
+        android:title="Patient Detais" />
+
+    <item
+        android:id="@+id/history_prescription"
+        android:icon="@drawable/history"
+        android:title="History" />
+
+    <item
+        android:id="@+id/add_prescription"
+        android:icon="@drawable/add_pres"
+        android:title="Add" />
+
+</menu>
